@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4581819dacfdcdb40b4fa53c8257b17a, type: 3}
+  m_Name: Anne 01
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSettings
+  actor: {fileID: 7107547150788043629, guid: e9128115a0802ba42a8b38e1ce711ea8, type: 3}
+  speakerSprite: {fileID: -1940738496428130850, guid: adee1e2876635f94ca1f8daaa0383181, type: 3}
+  setences: 
+  dialogues:
+  - actorName: Anne
+    actorImage: {fileID: -2272823102724795773, guid: 922d66a0ce6bb5e44b897743f20d1362, type: 3}
+    sentences:
+      english: Welcome!
+      portuguese: Bem-vindo!
