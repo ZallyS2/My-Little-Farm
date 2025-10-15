@@ -61,6 +61,8 @@
     <Analyzer Include="D:\unityy\6000.2.7f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Dialogue\DialogueControl.cs" />
+    <Compile Include="Assets\Scripts\NPCs\NPC Dialogue\NPC Dialogue.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnim.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueSettings.cs" />

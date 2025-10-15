@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Anne 01
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSettings
   actor: {fileID: 7107547150788043629, guid: e9128115a0802ba42a8b38e1ce711ea8, type: 3}
-  speakerSprite: {fileID: -1940738496428130850, guid: adee1e2876635f94ca1f8daaa0383181, type: 3}
+  speakerSprite: {fileID: 0}
   setences: 
   dialogues:
-  - actorName: Anne
-    actorImage: {fileID: -2272823102724795773, guid: 922d66a0ce6bb5e44b897743f20d1362, type: 3}
+  - actorName: 
+    actorImage: {fileID: 0}
     sentences:
-      english: Welcome!
-      portuguese: Bem-vindo!
+      english: 
+      portuguese: 
