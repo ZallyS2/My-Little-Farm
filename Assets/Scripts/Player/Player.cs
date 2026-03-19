@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,12 +8,23 @@ public class Player : MonoBehaviour
     [SerializeField] private float runSpeed;
 
     private float initialSpeed;
+    
+    
     private bool _isRunning;
     private bool _isRolling;
+    private bool _isCutting;
+
+
     private Rigidbody2D rb;
     private Animator animator;
 
     private Vector2 _move;
+   
+    
+    
+    
+    
+    
     public Vector2 move
     {
         get {return _move;} 
@@ -31,6 +43,12 @@ public class Player : MonoBehaviour
         set { _isRolling = value; }
     }
 
+    public bool isCutting
+    {
+        get { return _isCutting; }
+        set { _isCutting = value; }
+    }
+
 
 
     private void Start()
@@ -46,9 +64,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        ReadInput();
-        OnRun();
-        OnRolling();
+        PlayerMethods();
     }
 
     void FixedUpdate()
@@ -56,6 +72,14 @@ public class Player : MonoBehaviour
         rb.linearVelocity = _move * speed;
     }
 
+
+    void PlayerMethods()
+    {
+        ReadInput();
+        OnRun();
+        OnRolling();
+        OnCutting();
+    }
 
 
 
@@ -105,7 +129,7 @@ public class Player : MonoBehaviour
     {
         if(Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            speed = runSpeed;
+            speed = runSpeed * 2;
             _isRolling = true;
         }
         else
@@ -113,6 +137,21 @@ public class Player : MonoBehaviour
             _isRolling = false;
         }
         
+    }
+
+
+    void OnCutting()
+    {
+        if(Mouse.current.leftButton.isPressed)
+        {
+            _isCutting = true;
+            speed = 0;
+        }
+        else
+        {
+            _isCutting = false;
+            speed = initialSpeed;
+        }
     }
 
     #endregion

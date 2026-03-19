@@ -166,12 +166,12 @@ TextureImporter:
       name: longhair_idle_strip9_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 31
-        width: 18
-        height: 14
+        x: 0
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: longhair_idle_strip9_1
       rect:
         serializedVersion: 2
-        x: 134
-        y: 31
-        width: 18
-        height: 14
+        x: 96
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: longhair_idle_strip9_2
       rect:
         serializedVersion: 2
-        x: 230
-        y: 31
-        width: 18
-        height: 14
+        x: 192
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: longhair_idle_strip9_3
       rect:
         serializedVersion: 2
-        x: 326
-        y: 30
-        width: 18
-        height: 14
+        x: 288
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: longhair_idle_strip9_4
       rect:
         serializedVersion: 2
-        x: 422
-        y: 30
-        width: 18
-        height: 14
+        x: 384
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: longhair_idle_strip9_5
       rect:
         serializedVersion: 2
-        x: 518
-        y: 30
-        width: 18
-        height: 13
+        x: 480
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: longhair_idle_strip9_6
       rect:
         serializedVersion: 2
-        x: 614
-        y: 30
-        width: 18
-        height: 14
+        x: 576
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: longhair_idle_strip9_7
       rect:
         serializedVersion: 2
-        x: 710
-        y: 30
-        width: 18
-        height: 14
+        x: 672
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: longhair_idle_strip9_8
       rect:
         serializedVersion: 2
-        x: 806
-        y: 31
-        width: 18
-        height: 14
+        x: 768
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -364,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7c58bc3e0bba20a419a44b05d5ea83f3
     internalID: 0
     vertices: []
     indices: 
@@ -372,7 +372,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       longhair_idle_strip9_0: -4738599279905183678
       longhair_idle_strip9_1: 7087558793664773902

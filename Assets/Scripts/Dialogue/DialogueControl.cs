@@ -23,12 +23,14 @@ public class DialogueControl : MonoBehaviour
 
     [Header("Settings")]
     public float typingSpeed;
-    private bool isShowing;
+    private bool _isShowing;
     private int index;
     private string[] sentences;
     private Coroutine typingCoroutine;
 
     public static DialogueControl instance;
+
+    public bool IsShowing { get => _isShowing; set => _isShowing = value; }
 
     private void Awake()
     {
@@ -89,7 +91,7 @@ public class DialogueControl : MonoBehaviour
 
     public void Speech(string actorName, Sprite actorSprite, string[] txt)
     {
-        if(!isShowing)
+        if(!_isShowing)
         {
             dialogueObj.SetActive(true);
 
@@ -98,7 +100,7 @@ public class DialogueControl : MonoBehaviour
 
             sentences = txt;
             index = 0;
-            isShowing = true;
+            _isShowing = true;
 
             typingCoroutine = StartCoroutine(TypeSentence());
         }
@@ -116,6 +118,6 @@ public class DialogueControl : MonoBehaviour
         profilesprite.sprite = null;
         index = 0;
         dialogueObj.SetActive(false);
-        isShowing = false;
+        _isShowing = false;
     }
 }

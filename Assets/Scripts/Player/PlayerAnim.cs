@@ -40,6 +40,8 @@ public class PlayerAnim : MonoBehaviour
         {
             transform.eulerAngles = new Vector2(0, 180);
         }
+
+
     }
 
     void Animations()
@@ -52,6 +54,11 @@ public class PlayerAnim : MonoBehaviour
         if(player.isRolling)
         {
             anim.SetTrigger("IsRoll");
+        }
+
+        if(player.isCutting)
+        {
+            anim.SetInteger("Transitions", 4);
         }
     }
 
