@@ -57,7 +57,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         speed = 5f;
         initialSpeed = speed;
-        runSpeed = speed * 2;
+        runSpeed = speed * 3;
         _isRolling = false;
         _isRunning = false;
     }

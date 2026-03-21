@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16511371654edbf45941596f58ee7f1c, type: 3}
+  m_Name: Filo
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSettings
+  actor: {fileID: 2030256182627699554, guid: d3081cbc598a3704381759434c70c2d9, type: 3}
+  speakerSprite: {fileID: 6437389644040443678, guid: 5a57f98da66bf894e9062ea597462867, type: 3}
+  sentences: 
+  name: "Fil\xF3"
+  dialogues:
+  - actorName: "Fil\xF3"
+    sprite: {fileID: 6437389644040443678, guid: 5a57f98da66bf894e9062ea597462867, type: 3}
+    lenguages:
+      portuguese: "P\xF3 P\xF3 P\xF3"
+      english: "P\xF3 P\xF3 P\xF3"

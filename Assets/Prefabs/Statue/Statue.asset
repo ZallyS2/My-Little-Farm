@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16511371654edbf45941596f58ee7f1c, type: 3}
+  m_Name: Statue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSettings
+  actor: {fileID: 7217061713731656192, guid: 9df644626e2c9bb4b8ccf314c9e6652f, type: 3}
+  speakerSprite: {fileID: -7473545062981823136, guid: 7f8c9473b2d84194188bf720eeb7f7bc, type: 3}
+  sentences: 
+  name: "Est\xE1tua do Rei Rhoam "
+  dialogues:
+  - actorName: "Est\xE1tua do Rei Rhoam "
+    sprite: {fileID: -7473545062981823136, guid: 7f8c9473b2d84194188bf720eeb7f7bc, type: 3}
+    lenguages:
+      portuguese: "Em mem\xF3ria ao Rei Rhoam Bosphoramus Hyrule"
+      english: In memory of King Rhoam Bosphoramus Hyrule
