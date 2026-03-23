@@ -7,6 +7,9 @@ TagManager:
   - NPC
   - Axe
   - Wood
+  - Dig
+  - Water
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Enemy
   - 
   - 
   - 

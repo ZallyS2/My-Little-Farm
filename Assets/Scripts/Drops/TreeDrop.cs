@@ -27,7 +27,7 @@ public class TreeDrop : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            collision.GetComponent<Itens>().totalWoods += 1;
+            collision.GetComponent<Itens>().currentWoods += 1;
             Destroy(gameObject);
         }
     }

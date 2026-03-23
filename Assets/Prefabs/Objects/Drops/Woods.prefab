@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1843022571767256958}
   - component: {fileID: 5597434901316214578}
-  - component: {fileID: 7358434946878463746}
   - component: {fileID: 5384829153196277247}
   - component: {fileID: 4232113608030196808}
   m_Layer: 0
@@ -94,20 +93,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &7358434946878463746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7552629339764519220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b7438dfee3b5f479d52d9f61578e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TreeDrop
-  speed: -3
-  timeMove: 0.5
 --- !u!58 &5384829153196277247
 CircleCollider2D:
   m_ObjectHideFlags: 0
